@@ -38,6 +38,10 @@ h2 {
     text-align:Center;
     margin-bottom:20px;
 }
+.private-lessons-header {
+    margin-right:700px;
+    font-size:2px;
+}
 .classes-holder {
     display:flex;
     flex-direction:row;
