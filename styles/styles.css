@@ -40,7 +40,7 @@ h2 {
 }
 .private-lessons-header {
     margin-right:700px;
-    font-size:2px;
+    
 }
 .classes-holder {
     display:flex;
@@ -50,6 +50,7 @@ h2 {
 }
 .hidden {
     visibility:hidden;
+    font-size:2px;
 }
 .classes {
     width:300px;
