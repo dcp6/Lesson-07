@@ -52,8 +52,12 @@ nav li {
 nav a {
     display:block;
     text-decoration:none;
-    color:#000 !important;
+    color:#444444 !important;
     
+}
+nav a:hover {
+    background:#444444;
+    color:white !important;
 }
 .testimonial {
     grid-column-start:1;
