@@ -6,7 +6,8 @@
 #wrapper {
     width:85%;
     margin: 0px auto;
-    color: #444444;
+    background: #444444;
+    color:white;
 }
 h1 {
     font-size: 40px;
@@ -18,17 +19,18 @@ h2 {
     font-family: "Arial Bold", sans-serif;
 }
 .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
- grid-column-gap: 1.1%;
-grid-row-gap: 1.1%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 1.1%;
+   grid-row-gap: 1.1%;
 }
 .grid-item {
   font-size: 16px;
   text-align: center;
 }
 .grid-border {
-    border: 1px solid #444444;
+    background: #444444;
+    color:white;
 }
 .grid-header {
 	grid-column-start:1;
@@ -42,6 +44,7 @@ grid-row-gap: 1.1%;
 nav { 
     height:50px;
     line-height:50px;
+    border: 1px outset #444444;
 }
 nav li {
     float:left;
@@ -52,12 +55,12 @@ nav li {
 nav a {
     display:block;
     text-decoration:none;
-    color:#444444 !important;
+    color:white !important;
     
 }
 nav a:hover {
-    background:#444444;
-    color:white !important;
+    background:white;
+    color:#444444 !important;
 }
 .testimonial {
     grid-column-start:1;
