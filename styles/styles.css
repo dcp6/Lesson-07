@@ -96,9 +96,9 @@ video {
     justify-content: center;
     max-width: 85%;
 }
-.hidden-header {
+.invisible-header {
     font-size:1px;
-    display:hidden;
+    display:none;
 }
 blockquote {
     font-family: "Arial Regular", sans-serif;
