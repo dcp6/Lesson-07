@@ -8,6 +8,7 @@
     margin: 0px auto;
     background: #444444;
     color:white;
+    font-family: roboto, sans-serif;
 }
 h1 {
     font-size: 40px;
@@ -29,7 +30,7 @@ h2 {
   text-align: center;
 }
 .grid-border {
-    background: #444444;
+    border: 1px outset #444444;
     color:white;
 }
 .grid-header {
@@ -81,6 +82,7 @@ blockquote {
     font-family: "Arial Regular", sans-serif;
     font-size: 30px;
     color:#03a3df;
+
 }
 blockquote:nth-child(1) {
    margin-top: 20px;
