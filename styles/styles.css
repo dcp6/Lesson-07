@@ -19,6 +19,10 @@ h2 {
     font-size: 24px;
     font-family: "Arial Bold", sans-serif;
 }
+p {
+    font-size: 17px;
+    font-family:"arial regular", sans-serif;
+}
 .grid-container {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -73,10 +77,28 @@ nav a:hover {
 video {
     max-width:100%;
 }
+.nguyen-pic {
+    float:left;
+}
+.nguyen-about {
+    width:100%;
+    justify-content:center;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.links a {
+    color:white !important;
+    display:block;
+}
 .grid-about {
     grid-column-start:1;
     grid-column-end:3;
     justify-content: center;
+    max-width: 85%;
+}
+.hidden-header {
+    font-size:1px;
+    display:hidden;
 }
 blockquote {
     font-family: "Arial Regular", sans-serif;
